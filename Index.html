@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&quot; rel="stylesheet">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name"  maxLength="5" required>
+       <br>
+       <label for="user-Email">Email</label>
+       <input type="email" name="Name" required >
+
+       <section class="Bun-type">
+        <label for="Bun"> Date:</label>
+      <select name="Date" id="Date">
+      
+        <option value="12/1/23">12/1/23</option>
+        <option value="12/2/23">12/2/23</option>
+        <option value="12/3/23">12/3/23</option>
+        <option value="12/4/23">12/4/23</option>
+        <option value="12/5/23">12/5/23</option>
+        <option value="12/6/23">12/6/23</option>
+        <option value="12/7/23">12/7/23 </option>
+
+        </select>
+      </section>
+      <label for="URL">URL</label>
+      <input type="URL" name="URL" required >
+
+      <section class="Sauce-selection">
+        <label for="browser">Time:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="1:25">
+  <option value="1:30">
+  <option value="1:35">
+  <option value="1:40">
+  <option value="1:45">
+
+</datalist>
+
