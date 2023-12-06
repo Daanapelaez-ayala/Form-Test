@@ -13,8 +13,8 @@
        <label for="user-Email">Email</label>
        <input type="email" name="Name" required >
 
-       <section class="Bun-type">
-        <label for="Bun"> Date:</label>
+       <section class="Date">
+        <label for="Date"> Date:</label>
       <select name="Date" id="Date">
       
         <option value="12/1/23">12/1/23</option>
@@ -28,18 +28,35 @@
         </select>
       </section>
       <label for="URL">URL</label>
-      <input type="URL" name="URL" required >
+      <textarea name="extra" id="extra" cols="40"
+      rows="1"placeholder="Add URL" ></textarea>
+    </section>
 
-      <section class="Sauce-selection">
-        <label for="browser">Time:</label>
-<input list="browsers" name="browser" id="browser">
-
-<datalist id="browsers">
-  <option value="1:25">
-  <option value="1:30">
-  <option value="1:35">
-  <option value="1:40">
-  <option value="1:45">
-
-  </datalist>
-
+      <section class="Time">
+        <label for="Time"> Time:</label>
+      <select name="Time" id="Time">
+      
+        <option value="1:00">1:00</option>
+        <option value="2:00">2:00</option>
+        <option value="3:00">3:00</option>
+        <option value="4:00">4;00</option>
+        <option value="5:00">5:00</option>
+        <option value="6:00">6:00</option>
+        <option value="7:00">7:00 </option>
+      </select>
+    </section>
+    <section class="cooked">
+      <label for="doneness"> Range:</label>
+      <br>
+      <span>Min 1</span>
+      <input type="range" name="doneness" id="doneness">
+      <span>Max 10</span>
+  </section>
+    <label for="Telephone">Telephone:</label>
+    <input type="Telephone" name="Telephone" id="Telephone"  maxLength="5" required>
+   <br>
+   <label for="Search Term">Search Term:</label>
+   <input type="Search Term" name="Search Term" id="search Terms"  maxLength="5" required>
+    <br>
+   <label for="favcolor">Select your favorite color:</label>
+   <input type="color" id="favcolor" name="favcolor" value="#ff0000">
